@@ -88,11 +88,11 @@ resource "aws_instance" "Bastion_host" {
 			"mv index.html nseit.html",
 			"sudo mv nseit.html /var/www/html/",
 			"sudo mv images /var/www/html/",
-			//"sudo yum install -y postgresql-server postgresql-contrib",
-			//"sudo postgresql-setup initdb",
-			//"sudo systemctl start postgresql",
-			//"sudo systemctl status postgresql",
-			//"sudo bash -x execute.sh"
+			"sudo yum install -y postgresql-server postgresql-contrib",
+			"sudo postgresql-setup initdb",
+			"sudo systemctl start postgresql",
+			"sudo systemctl status postgresql",
+			"sudo bash -x execute.sh"
 		]
 	}
 	provisioner "remote-exec" {
