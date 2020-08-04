@@ -1,7 +1,7 @@
 provider "aws" {
-    region = "ap-south-1"
-    access_key = "AKIAI4464W5ST6GJYX3Q"
-    secret_key = "RNbSC7w3LlSj6sgA0kZb0j8wzPV0rSd7koVSGY0q"
+    region = "ap-south-1"  //MUMBAI-ZONE
+    access_key = "AKIAI4464W5ST6GJYX3Q" //REPLACE IT WITH YOUR ACCESS_KEY
+    secret_key = "RNbSC7w3LlSj6sgA0kZb0j8wzPV0rSd7koVSGY0q"  //REPLACE IT WITH YOUR SECRET KEY
 }
 
 resource "aws_vpc" "application" {
